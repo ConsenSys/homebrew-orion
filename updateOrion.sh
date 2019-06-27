@@ -19,7 +19,7 @@ HASH=`shasum -a 256 ${TEMP}/orion-${VERSION}.zip | cut -d ' ' -f 1`
 
 cat > orion.rb <<EOF
 class Orion < Formula
-  desc "orion ethereum client"
+  desc "orion private transaction manager"
   homepage "https://github.com/pegasyseng/orion"
   url "${URL}"
   # update with: ./updateOrion.sh <new-version>
