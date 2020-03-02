@@ -1,9 +1,9 @@
 class Orion < Formula
   desc "orion private transaction manager"
   homepage "https://github.com/pegasyseng/orion"
-  url "https://consensys.bintray.com/binaries/orion-1.4.0.zip"
+  url "https://consensys.bintray.com/binaries/orion-1.5.0.zip"
   # update with: ./updateOrion.sh <new-version>
-  sha256 "b19dff2c5d19dca1d4655adca9a811843f7d1654fa7155f37622c4a765491f15"
+  sha256 "24b5922ac1fffbf854c2605dc08ac2ed784cf3a7bb31c964404dbb84d0f8f074"
 
   depends_on :java => "1.8+"
 
