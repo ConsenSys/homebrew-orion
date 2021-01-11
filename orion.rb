@@ -5,7 +5,7 @@ class Orion < Formula
   # update with: ./updateOrion.sh <new-version>
   sha256 "ce196ed77ac7914000eecf6ebb7b5f7dc9855ce9bb6774f8d3588f30d2446ddb"
 
-  depends_on "openjdk@8"
+  depends_on "openjdk" => "8+"
 
   def install
     prefix.install "lib"
