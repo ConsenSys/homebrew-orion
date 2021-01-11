@@ -5,7 +5,7 @@ Homebrew Tap for Orion.
 Add the tap, and install:
 
 ```
-brew tap pegasyseng/orion
+brew tap consensys/orion
 brew install orion
 ```
 Run the orion executable:
@@ -14,10 +14,10 @@ Run the orion executable:
 orion --help
 ```
 
-Refer to the [orion docs](https://docs.orion.pegasys.tech/en/stable/) for further information.
+Refer to the [orion docs](https://docs.orion.consensys.net/) for further information.
 
 To upgrade orion:
 ```
-brew tap pegasyseng/orion
+brew tap consensys/orion
 brew upgrade orion
 ```
